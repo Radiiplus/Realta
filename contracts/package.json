@@ -1,0 +1,20 @@
+{
+  "name": "ndcp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Nervos Digital Credential Portal - Smart contracts for verifiable digital credentials",
+  "main": "src/ndcp.mjs",
+  "scripts": {
+    "test": "node src/ndcp.test.mjs"
+  },
+  "keywords": [
+    "ckb",
+    "nervos",
+    "credential",
+    "digital-credentials",
+    "smart-contract",
+    "blockchain"
+  ],
+  "author": "",
+  "license": "MIT"
+}

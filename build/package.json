@@ -1,0 +1,8 @@
+{
+  "name": "ckb-setup",
+  "type": "module",
+  "scripts": {
+    "setup": "node setup.js",
+    "auto:test": "node ../auto/test-issue-revoke.mjs"
+  }
+}

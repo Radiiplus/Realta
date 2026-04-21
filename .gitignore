@@ -1,0 +1,41 @@
+﻿# OS
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Test / coverage
+coverage/
+.nyc_output/
+
+# Build artifacts
+*.tsbuildinfo
+dist/
+
+# Rust build artifacts
+contracts/ndcp/target/
+contracts/ndcp/target-windows/
+
+# Generated project artifacts
+auto/artifacts/
+deployment/
+
+# Temporary files
+*.tmp
+*.temp
