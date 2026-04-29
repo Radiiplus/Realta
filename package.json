@@ -1,0 +1,14 @@
+{
+  "name": "realta-api",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.mjs"
+  },
+  "dependencies": {
+    "@nervosnetwork/ckb-sdk-utils": "^0.109.5",
+    "@supabase/supabase-js": "^2.104.1",
+    "dotenv": "^17.4.2",
+    "elliptic": "^6.6.1"
+  }
+}

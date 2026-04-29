@@ -39,3 +39,6 @@ deployment/
 # Temporary files
 *.tmp
 *.temp
+
+# Local server runtime data
+server/data/
