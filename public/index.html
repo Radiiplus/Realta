@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NDCP Portal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              neo: {
+                accent: '#00ff9d',
+                danger: '#ff4d4d',
+                text: '#e6e6e6',
+              },
+            },
+            borderRadius: {
+              neo: '14px',
+            },
+            boxShadow: {
+              'neo-in': 'inset 2px 2px 4px #0a0a0a, inset -2px -2px 4px #1a1a1a',
+              'neo-out': '4px 4px 8px #0a0a0a, -4px -4px 8px #1a1a1a',
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-black text-neo-text antialiased min-h-screen font-sans selection:bg-neo-accent selection:text-black">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

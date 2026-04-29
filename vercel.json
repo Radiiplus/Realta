@@ -1,0 +1,58 @@
+{
+  "version": 2,
+  "functions": {
+    "api/index.mjs": {
+      "runtime": "nodejs22.x"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/health",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/networks",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/contract/:path*",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/portal/:path*",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/ndcp/:path*",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/wallet/:path*",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/tx/:path*",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/submit-tx",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/build-tx",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/v/:path*",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/id/:path*",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/o/:path*",
+      "destination": "/api/index"
+    }
+  ]
+}

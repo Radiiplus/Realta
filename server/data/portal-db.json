@@ -1,0 +1,447 @@
+{
+  "organizations": {
+    "org_88ec3309-8d96-4d6f-a129-36029e08edfb": {
+      "id": "org_88ec3309-8d96-4d6f-a129-36029e08edfb",
+      "apiKey": "orgsk_635074b45b3d409199b168cf35c0631d",
+      "name": "Demo University",
+      "walletAddress": "ckt1qzda0cr08m85hc8jlnfp3zer7xulejywt49kt2rr0vthywaa50xwsqt435c3epyrupszm7khk6weq5lrlyt52lg48ucew",
+      "issuerLockArg": "0x758d311c8483e0602dfad7b69d9053e3f917457d",
+      "contactEmail": null,
+      "profile": {
+        "description": "",
+        "website": "https://demo.example.edu",
+        "twitter": "@demo_uni"
+      },
+      "verification": {
+        "twitter": {
+          "status": "verified",
+          "updatedAt": "2026-04-22T07:34:11.304Z",
+          "proof": "https://x.com/demo_uni/status/1"
+        },
+        "website": {
+          "status": "unverified",
+          "updatedAt": null
+        },
+        "kyc": {
+          "status": "unverified",
+          "updatedAt": null,
+          "submissionId": null
+        }
+      },
+      "createdAt": "2026-04-22T07:33:52.506Z",
+      "updatedAt": "2026-04-22T07:34:11.304Z"
+    },
+    "org_5e850ccd-c3b8-4e0c-9de4-27f46d586624": {
+      "id": "org_5e850ccd-c3b8-4e0c-9de4-27f46d586624",
+      "apiKey": "orgsk_905ee114b0534581b4f94d0ebbbddb9b",
+      "name": "Grouped API Org",
+      "walletAddress": "ckt1qzda0cr08m85hc8jlnfp3zer7xulejywt49kt2rr0vthywaa50xwsqt435c3epyrupszm7khk6weq5lrlyt52lg48ucew",
+      "issuerLockArg": "0x758d311c8483e0602dfad7b69d9053e3f917457d",
+      "contactEmail": null,
+      "profile": {
+        "description": "",
+        "website": "",
+        "twitter": ""
+      },
+      "verification": {
+        "twitter": {
+          "status": "verified",
+          "updatedAt": "2026-04-22T07:53:26.931Z",
+          "proof": "https://x.com/grouped/status/1"
+        },
+        "website": {
+          "status": "unverified",
+          "updatedAt": null
+        },
+        "kyc": {
+          "status": "unverified",
+          "updatedAt": null,
+          "submissionId": null
+        }
+      },
+      "createdAt": "2026-04-22T07:52:46.054Z",
+      "updatedAt": "2026-04-22T07:53:26.931Z"
+    },
+    "org_04cb6ff6-a38e-4287-ba83-f05c6048a7f4": {
+      "id": "org_04cb6ff6-a38e-4287-ba83-f05c6048a7f4",
+      "apiKey": "orgsk_ea19c44d572f4f4ea74024c0cba4b1b4",
+      "name": "Grouped Only Org",
+      "walletAddress": "ckt1qzda0cr08m85hc8jlnfp3zer7xulejywt49kt2rr0vthywaa50xwsqt435c3epyrupszm7khk6weq5lrlyt52lg48ucew",
+      "issuerLockArg": null,
+      "contactEmail": null,
+      "profile": {
+        "description": "",
+        "website": "",
+        "twitter": ""
+      },
+      "verification": {
+        "twitter": {
+          "status": "unverified",
+          "updatedAt": null
+        },
+        "website": {
+          "status": "unverified",
+          "updatedAt": null
+        },
+        "kyc": {
+          "status": "unverified",
+          "updatedAt": null,
+          "submissionId": null
+        }
+      },
+      "createdAt": "2026-04-22T07:57:01.970Z",
+      "updatedAt": "2026-04-22T07:57:01.970Z"
+    },
+    "org_f4aca10c-e53c-41da-9994-c8759f7db6a8": {
+      "id": "org_f4aca10c-e53c-41da-9994-c8759f7db6a8",
+      "apiKey": "orgsk_35fce3891cf94f4eb10832fddc3e36ae",
+      "name": "Curl Test Org",
+      "walletAddress": "ckt1qzda0cr08m85hc8jlnfp3zer7xulejywt49kt2rr0vthywaa50xwsqt435c3epyrupszm7khk6weq5lrlyt52lg48ucew",
+      "issuerLockArg": "0x758d311c8483e0602dfad7b69d9053e3f917457d",
+      "contactEmail": null,
+      "profile": {
+        "description": "",
+        "website": "",
+        "twitter": ""
+      },
+      "verification": {
+        "twitter": {
+          "status": "verified",
+          "updatedAt": "2026-04-22T09:03:52.498Z",
+          "proof": "https://x.com/curltest/status/1"
+        },
+        "website": {
+          "status": "unverified",
+          "updatedAt": null
+        },
+        "kyc": {
+          "status": "unverified",
+          "updatedAt": null,
+          "submissionId": null
+        }
+      },
+      "createdAt": "2026-04-22T09:03:52.253Z",
+      "updatedAt": "2026-04-22T09:03:52.498Z"
+    },
+    "org_adb3776b-bd58-4e31-a958-8a9f0316ddec": {
+      "id": "org_adb3776b-bd58-4e31-a958-8a9f0316ddec",
+      "apiKey": "orgsk_b299d792d1d64828b08251d7f39db042",
+      "name": "vibes ltd",
+      "walletAddress": "dev-4f3edf983ac636a6",
+      "issuerLockArg": null,
+      "contactEmail": "radiiplus@gmail.com",
+      "profile": {
+        "legalName": "Vibes Inna",
+        "registrationNumber": "REG-MOADT4C4-0AC20B",
+        "industry": "Tech",
+        "firstName": "",
+        "lastName": "",
+        "occupation": "",
+        "country": "Nigeria",
+        "city": "Umuahia",
+        "addressLine": "Bob ogbuagu street",
+        "description": "",
+        "website": "guffie.site",
+        "twitter": "",
+        "phone": "08109663995"
+      },
+      "verification": {
+        "twitter": {
+          "status": "verified",
+          "updatedAt": "2026-04-22T20:15:37.096Z",
+          "proof": "profile_attestation"
+        },
+        "website": {
+          "status": "verified",
+          "updatedAt": "2026-04-22T20:15:37.096Z",
+          "proof": "profile_attestation"
+        },
+        "kyc": {
+          "status": "unverified",
+          "updatedAt": null,
+          "submissionId": null
+        }
+      },
+      "createdAt": "2026-04-22T16:29:19.378Z",
+      "updatedAt": "2026-04-22T20:15:37.096Z",
+      "entityType": "organization",
+      "profileLockedAt": "2026-04-22T20:15:37.096Z",
+      "status": "active"
+    },
+    "org_fe397fa7-c951-440d-a016-de28f511fbc6": {
+      "id": "org_fe397fa7-c951-440d-a016-de28f511fbc6",
+      "apiKey": "orgsk_69c9d8eb09c6491da7a640449b85cf66",
+      "name": "westcoast",
+      "walletAddress": "dev-4f3edf983ac636a6",
+      "issuerLockArg": null,
+      "contactEmail": null,
+      "profile": {
+        "legalName": "westcoast",
+        "registrationNumber": "REG-MOADTYCD-96526D",
+        "industry": "",
+        "firstName": "",
+        "lastName": "",
+        "occupation": "",
+        "country": "",
+        "city": "",
+        "addressLine": "",
+        "description": "",
+        "website": "",
+        "twitter": "",
+        "phone": ""
+      },
+      "verification": {
+        "twitter": {
+          "status": "unverified",
+          "updatedAt": null
+        },
+        "website": {
+          "status": "unverified",
+          "updatedAt": null
+        },
+        "kyc": {
+          "status": "unverified",
+          "updatedAt": null,
+          "submissionId": null
+        }
+      },
+      "createdAt": "2026-04-22T17:57:14.128Z",
+      "updatedAt": "2026-04-22T17:57:14.128Z",
+      "entityType": "organization",
+      "status": "active"
+    }
+  },
+  "verifications": {
+    "twitterChallenges": {
+      "org_88ec3309-8d96-4d6f-a129-36029e08edfb": {
+        "challenge": "Realta NDCP verification for org_88ec3309-8d96-4d6f-a129-36029e08edfb nonce:64a2fd7fa16a20a6",
+        "nonce": "64a2fd7fa16a20a6",
+        "createdAt": "2026-04-22T07:34:00.575Z"
+      },
+      "org_5e850ccd-c3b8-4e0c-9de4-27f46d586624": {
+        "challenge": "Realta NDCP verification for org_5e850ccd-c3b8-4e0c-9de4-27f46d586624 nonce:2a54728d4c07af30",
+        "nonce": "2a54728d4c07af30",
+        "createdAt": "2026-04-22T07:53:08.327Z"
+      },
+      "org_f4aca10c-e53c-41da-9994-c8759f7db6a8": {
+        "challenge": "Realta NDCP verification for org_f4aca10c-e53c-41da-9994-c8759f7db6a8 nonce:4e32370e5b56aa8b",
+        "nonce": "4e32370e5b56aa8b",
+        "createdAt": "2026-04-22T09:03:52.370Z"
+      },
+      "org_adb3776b-bd58-4e31-a958-8a9f0316ddec": {
+        "challenge": "Realta NDCP verification for org_adb3776b-bd58-4e31-a958-8a9f0316ddec nonce:33500097e4a1979f",
+        "nonce": "33500097e4a1979f",
+        "createdAt": "2026-04-22T19:47:30.063Z"
+      }
+    },
+    "websiteChallenges": {
+      "org_adb3776b-bd58-4e31-a958-8a9f0316ddec": {
+        "token": "dc8f78da689212af8bf4ea5ab4409cd7",
+        "expectedPath": "/.well-known/realta-verification.txt",
+        "challenge": "realta-org=org_adb3776b-bd58-4e31-a958-8a9f0316ddec;token=dc8f78da689212af8bf4ea5ab4409cd7",
+        "createdAt": "2026-04-22T20:05:32.791Z"
+      }
+    }
+  },
+  "kycSubmissions": {},
+  "contents": {
+    "content_1fea2533-d72f-4987-b14f-da7301e5b2fb": {
+      "id": "content_1fea2533-d72f-4987-b14f-da7301e5b2fb",
+      "orgId": "org_88ec3309-8d96-4d6f-a129-36029e08edfb",
+      "pointerType": "web2",
+      "pointer": "https://cdn.example.edu/credential-001.pdf",
+      "contentHash": "0xa1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1",
+      "title": "BSc Computer Science",
+      "mimeType": "application/pdf",
+      "createdAt": "2026-04-22T07:34:22.164Z"
+    },
+    "content_9b26d73e-cbdf-424a-bf73-33cb08f8da38": {
+      "id": "content_9b26d73e-cbdf-424a-bf73-33cb08f8da38",
+      "orgId": "org_f4aca10c-e53c-41da-9994-c8759f7db6a8",
+      "pointerType": "web2",
+      "pointer": "https://cdn.example.edu/curl-test.pdf",
+      "contentHash": "0xa1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1",
+      "title": "Curl Credential",
+      "mimeType": null,
+      "createdAt": "2026-04-22T09:03:52.977Z"
+    },
+    "content_bd6aee1a-e6f5-4207-81e2-034801e34f06": {
+      "id": "content_bd6aee1a-e6f5-4207-81e2-034801e34f06",
+      "orgId": "org_adb3776b-bd58-4e31-a958-8a9f0316ddec",
+      "pointerType": "web2",
+      "pointer": "http://localhost:8787/portal/content/file/562a6181-6a48-49c0-bb0d-cc7209dc2575-initials.jpg",
+      "contentHash": "0xb494ab7d3047cb45909a078ef3b31c3abea20231e4b04f833b52e1f023c117af",
+      "title": "Authenticity Certificate",
+      "mimeType": "image/jpeg",
+      "fileName": "initials.jpg",
+      "fileSize": 41275,
+      "createdAt": "2026-04-23T21:26:43.563Z"
+    },
+    "content_34db4b60-be4f-4c98-a2b6-cf2228960d3f": {
+      "id": "content_34db4b60-be4f-4c98-a2b6-cf2228960d3f",
+      "orgId": "org_adb3776b-bd58-4e31-a958-8a9f0316ddec",
+      "pointerType": "web2",
+      "pointer": "http://localhost:8787/portal/content/file/b750748d-fba2-490b-8414-5ce473b04741-liquid-letter-g-drip-logo-6d93bf07-6aac-402d-a16d-07a9f204a622.png",
+      "contentHash": "0xa551fd1431e424379b97426b18f832bbc8cdfd3f0391333cc8ee05555c18e5fb",
+      "title": "Authenticity Certificate",
+      "mimeType": "image/png",
+      "fileName": "liquid-letter-g-drip-logo-6d93bf07-6aac-402d-a16d-07a9f204a622.png",
+      "fileSize": 51264,
+      "createdAt": "2026-04-24T01:14:13.554Z"
+    }
+  },
+  "credentials": {
+    "cred_cf0683e8-0d3b-4d4e-aee6-45e43f7f9cc7": {
+      "id": "cred_cf0683e8-0d3b-4d4e-aee6-45e43f7f9cc7",
+      "orgId": "org_adb3776b-bd58-4e31-a958-8a9f0316ddec",
+      "network": "devnet",
+      "title": "Authenticity Certificate",
+      "recipientDisplayName": "vibes",
+      "ndcpOutPoint": {
+        "txHash": "0x6f29d02d9c84a72b922c49ee3c44713040286ebfee44d87275362309dba1b8a6",
+        "index": "0x0"
+      },
+      "onChain": {
+        "issuerLockArg": "0x758d311c8483e0602dfad7b69d9053e3f917457d",
+        "recipientLockArg": "0xce3d6d67bd1dd820eaa535d0579c720adc4364b0",
+        "contentHash": "0x22339cea4957e0c8f34948816bd42ef2793fe900d187685bf469d78c15103774",
+        "ckbfsPointer": "0x28d6ea65b391365f217980972e2378ae066e9b5c1d639f884947dbc8f0143d3e",
+        "issuedAt": 1776973013141,
+        "expiresAt": null,
+        "flag": 1,
+        "revoked": false
+      },
+      "contentId": null,
+      "status": "issued",
+      "createdAt": "2026-04-23T19:41:11.125Z",
+      "updatedAt": "2026-04-23T19:41:11.125Z"
+    },
+    "cred_d6973ec9-6845-43e0-924c-8892876d3a61": {
+      "id": "cred_d6973ec9-6845-43e0-924c-8892876d3a61",
+      "orgId": "org_adb3776b-bd58-4e31-a958-8a9f0316ddec",
+      "network": "devnet",
+      "title": "Authenticity Certificate",
+      "recipientDisplayName": "Positive Vibes",
+      "ndcpOutPoint": {
+        "txHash": "0xcc0e97900a18cf86caced0734736c76a0fe0c85ad5f980740cc6656771e13354",
+        "index": "0x0"
+      },
+      "onChain": {
+        "issuerLockArg": "0x758d311c8483e0602dfad7b69d9053e3f917457d",
+        "recipientLockArg": "0x1ffc760bbb2403e82dd2de305381e3b87c88ebd6",
+        "contentHash": "0xb494ab7d3047cb45909a078ef3b31c3abea20231e4b04f833b52e1f023c117af",
+        "ckbfsPointer": "0xe5cb653171eecd4adb39acd8934f0db7120b11b52d5905858585ad2cca0f21d6",
+        "issuedAt": 1776981088660,
+        "expiresAt": null,
+        "flag": 1,
+        "revoked": false
+      },
+      "contentId": "content_bd6aee1a-e6f5-4207-81e2-034801e34f06",
+      "status": "delisted",
+      "createdAt": "2026-04-23T21:51:40.615Z",
+      "updatedAt": "2026-04-24T09:02:52.614Z",
+      "delistedAt": "2026-04-24T09:02:52.614Z"
+    },
+    "cred_e2ccbeee-b6ce-45ef-b95c-69b7bc06c552": {
+      "id": "cred_e2ccbeee-b6ce-45ef-b95c-69b7bc06c552",
+      "orgId": "org_adb3776b-bd58-4e31-a958-8a9f0316ddec",
+      "network": "devnet",
+      "title": "Authenticity Certificate",
+      "recipientDisplayName": "Positive Vibes",
+      "recipientReference": "vibes",
+      "ndcpOutPoint": {
+        "txHash": "0x49f554afbaceab00bf82b542bf1cc942f5b4c538c1235be962ee56a27f76bce3",
+        "index": "0x0"
+      },
+      "onChain": {
+        "issuerLockArg": "0x758d311c8483e0602dfad7b69d9053e3f917457d",
+        "recipientLockArg": "0x5044e4ba96b52b5ce8ad3d420b5cf3f520f0c631",
+        "contentHash": "0xa551fd1431e424379b97426b18f832bbc8cdfd3f0391333cc8ee05555c18e5fb",
+        "ckbfsPointer": "0x3433fe8369078c23a174e044f94997b7a303acdb388f484ccfcf6a32db383eb7",
+        "issuedAt": 1776993253612,
+        "expiresAt": null,
+        "flag": 1,
+        "revoked": false
+      },
+      "contentId": "content_34db4b60-be4f-4c98-a2b6-cf2228960d3f",
+      "issuanceSessionId": "isess_f43f2328-c598-4ed3-af79-416e150de87b",
+      "claimant": {
+        "walletAddress": "dev-1b8fc8c65487fa9d",
+        "fullName": "Positive Vibes",
+        "email": "positivevibez032@gmail.com",
+        "reference": "vibes",
+        "keyId": "0x006accafe3b056b3216752931e8820f88601aff617d7bed62fc088983aece6c2"
+      },
+      "status": "issued",
+      "createdAt": "2026-04-24T01:14:28.508Z",
+      "updatedAt": "2026-04-24T01:14:28.508Z"
+    }
+  },
+  "shareLinks": {
+    "603ea9f0405d": "cred_cf0683e8-0d3b-4d4e-aee6-45e43f7f9cc7",
+    "e7b3452bd358": "cred_d6973ec9-6845-43e0-924c-8892876d3a61",
+    "eb7bff511cc5": "cred_e2ccbeee-b6ce-45ef-b95c-69b7bc06c552"
+  },
+  "authChallenges": {},
+  "issuanceSessions": {
+    "isess_e164fc3d-2398-4143-a7ce-4257a589c61b": {
+      "id": "isess_e164fc3d-2398-4143-a7ce-4257a589c61b",
+      "token": "0617c8d116bd668ee07fb0b00ed62f3f9457",
+      "orgId": "org_adb3776b-bd58-4e31-a958-8a9f0316ddec",
+      "orgName": "vibes ltd",
+      "credentialType": "authenticity",
+      "credentialTitle": "Authenticity Certificate",
+      "note": "your invitation role",
+      "status": "expired",
+      "nonce": "3ee761a5406ecd4ea2cb581a",
+      "createdAt": "2026-04-24T00:23:53.817Z",
+      "expiresAt": "2026-04-24T00:43:53.814Z",
+      "updatedAt": "2026-04-24T07:50:59.525Z",
+      "userSubmission": null
+    },
+    "isess_79402cd8-46ff-4d19-aa4c-50863098cfd1": {
+      "id": "isess_79402cd8-46ff-4d19-aa4c-50863098cfd1",
+      "token": "6c58e13ce242f88120886f8a510721ee56ba",
+      "orgId": "org_adb3776b-bd58-4e31-a958-8a9f0316ddec",
+      "orgName": "vibes ltd",
+      "credentialType": "authenticity",
+      "credentialTitle": "Authenticity Certificate",
+      "note": null,
+      "status": "expired",
+      "nonce": "6ef0822ed8ce9228dd1ac313",
+      "createdAt": "2026-04-24T00:33:45.056Z",
+      "expiresAt": "2026-04-24T00:53:45.046Z",
+      "updatedAt": "2026-04-24T01:12:27.592Z",
+      "userSubmission": null
+    },
+    "isess_f43f2328-c598-4ed3-af79-416e150de87b": {
+      "id": "isess_f43f2328-c598-4ed3-af79-416e150de87b",
+      "token": "7f32a53601b8f785b498ea9bcbe669792050",
+      "orgId": "org_adb3776b-bd58-4e31-a958-8a9f0316ddec",
+      "orgName": "vibes ltd",
+      "credentialType": "authenticity",
+      "credentialTitle": "Authenticity Certificate",
+      "note": "vibes",
+      "status": "issued",
+      "nonce": "09422fdab466f669178a2e01",
+      "createdAt": "2026-04-24T01:12:49.574Z",
+      "expiresAt": "2026-04-24T01:32:49.573Z",
+      "updatedAt": "2026-04-24T01:14:28.508Z",
+      "userSubmission": {
+        "walletAddress": "dev-1b8fc8c65487fa9d",
+        "publicKey": "0x036e6950f0f039101f6d74c97e61d917ae9977808cb5966e0db901b41813f48c48",
+        "keyId": "0x006accafe3b056b3216752931e8820f88601aff617d7bed62fc088983aece6c2",
+        "profile": {
+          "fullName": "Positive Vibes",
+          "email": "positivevibez032@gmail.com",
+          "reference": "vibes"
+        },
+        "message": "domain=realta.issuance.session\nversion=v1\nsessionId=isess_f43f2328-c598-4ed3-af79-416e150de87b\norgId=org_adb3776b-bd58-4e31-a958-8a9f0316ddec\ncredentialType=authenticity\nnonce=09422fdab466f669178a2e01\nwalletAddress=dev-1b8fc8c65487fa9d\nfullName=Positive Vibes\nemail=positivevibez032@gmail.com\nreference=vibes\nissuedAt=2026-04-24T01:13:30.102Z",
+        "digestHex": "0x9c98a3b5f55050ee0c4bcdeb0f74dbd4ccb7c6f462a04ff0b2438ad19825133f",
+        "signature": "0x304402202ab1e3c501260a7bd3ecad064ba0977932e3770b6271a3ed77e4bdc722ad7a3102200d89dd229060f47908931e8b2437492ec8dd4f7f534067a6d268fc07f34e65da",
+        "submittedAt": "2026-04-24T01:13:30.595Z"
+      },
+      "linkedCredentialId": "cred_e2ccbeee-b6ce-45ef-b95c-69b7bc06c552"
+    }
+  }
+}

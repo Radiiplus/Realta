@@ -13,7 +13,7 @@ NDCP enables organizations to issue secure, verifiable digital credentials on CK
 - **Revocation Support**: Immediate and provable credential revocation
 - **Flexible Verification**: Backend decides verification requirements (Twitter/Website/KYC)
 - **Off-chain Storage**: Large content stored on CKBFS or traditional storage with on-chain pointers
-- **Multiple Credential Types**: Academic, Employment, Membership, Certification, Product
+- **Custom Credential Types**: Credential type is application metadata and can be custom
 
 ## Architecture
 
@@ -58,16 +58,6 @@ NDCP enables organizations to issue secure, verifiable digital credentials on CK
 | verificationData | n bytes | Backend verification metadata |
 | expiresAt | 8 bytes (optional) | Expiration timestamp (when `hasExpiry=1`) |
 
-## Credential Types
-
-| Type | ID | Description |
-|------|-----|-------------|
-| Academic Diploma | academic_diploma | Academic degree or diploma |
-| Employment | employment | Proof of employment |
-| Membership | membership | Organization membership |
-| Certification | certification | Professional certification |
-| Product | product | Product authenticity |
-
 ## SDK Usage
 
 ```javascript
@@ -77,7 +67,6 @@ import {
   serializeCredential,
   deserializeCredential,
   validateCredentialData,
-  CREDENTIAL_TYPES,
 } from './ndcp.mjs';
 
 // 1. Create a credential

@@ -1,4 +1,4 @@
-﻿# Builder Track Weekly Report - Week 3
+# Builder Track Weekly Report - Week 3
 
 > **Tracking progress in the CKB Academy Builder Program**
 

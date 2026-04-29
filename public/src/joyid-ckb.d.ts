@@ -1,0 +1,2 @@
+declare module '@joyid/ckb';
+

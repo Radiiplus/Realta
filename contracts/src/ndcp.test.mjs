@@ -5,7 +5,6 @@ import {
   serializeCredential,
   deserializeCredential,
   validateCredentialData,
-  CREDENTIAL_TYPES,
 } from './ndcp.mjs';
 
 async function test() {
@@ -61,10 +60,8 @@ async function test() {
   console.log('   Is Revoked:', isRevoked(revoked));
   console.log('   Original still valid:', !isRevoked(credential));
 
-  console.log('\n7. Credential Types:');
-  Object.values(CREDENTIAL_TYPES).forEach((type) => {
-    console.log('   - ' + type.name + ': ' + type.description);
-  });
+  console.log('\n7. Credential Type Handling:');
+  console.log('   Credential type is app-level metadata and can be any custom string.');
 
   console.log('\n=== All Tests Passed ===');
   console.log('\nNote: Backend decides verification requirements. Contract only stores verification data.');
