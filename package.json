@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "build": "echo backend-build-skip",
     "start": "node server/index.mjs"
   },
   "dependencies": {
